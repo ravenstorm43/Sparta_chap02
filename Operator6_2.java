@@ -11,5 +11,7 @@ public class Operator6_2 {
         System.out.print("s1 == s3 = ");
         System.out.println(s1 == s3); // false
         System.out.println("s1.equals(s3) = " + s1.equals(s3)); // true
+        // 참조형 변수에서 ==은 두 변수의 주소를 비교하기에 s1 == s3은 false임
+        // equals()라는 메소드가 따로 있는 이유도 이것 때문임
     }
 }
